@@ -1,32 +1,35 @@
-*{
+* {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
 }
 
-body{
+body {
         width: 100%;
-        font-family: 'Poppins', 
-        sans-serif;
+        font-family: 'Poppins', sans-serif;
 }
 
-.main-section{
+/* ----------------------------------------------------------------
+-----------------------Main Sections Style----------------------
+---------------------------------------------------------------- */
+
+.main-section {
         display: flex;
         justify-content: space-evenly;
         background: rgb(45, 37, 160);
         height: 600px;
         align-items: center;
         line-height: 80px;
+        margin-bottom: 70px;
 }
 
-main h1{
+main h1 {
         font-size: 64px;
         font-weight: 700;
         color: #FFFFFF;
-
 }
 
-.btn{
+.btn {
         height: 44px;
         width: 168px;
         font-size: 16px;
@@ -37,7 +40,46 @@ main h1{
         cursor: pointer;
 }
 
-.banner-img img{
+.banner-img img {
         Width: 556.01px;
-        Height :456px;
+        Height: 456px;
+}
+
+/* ----------------------------------------------------------------
+-----------------------Players Section Style----------------------
+---------------------------------------------------------------- */
+
+.players-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 27px;
+        background-color: rgb(255, 255, 255);
+}
+
+.players-section {
+        width: 70%;
+        margin: 0 auto;
+}
+
+.player {
+        height: 456px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-img img {
+        height: 256px;
+        width: 300px;
+}
+
+.player-details {
+        margin-top: 16px;
+}
+
+.player-details p {
+        margin-top: 10px;
 }
