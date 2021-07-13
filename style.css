@@ -54,9 +54,6 @@ main h1 {
         grid-template-columns: repeat(3, 1fr);
         row-gap: 27px;
         background-color: rgb(255, 255, 255);
-}
-
-.players-section {
         width: 70%;
         margin: 0 auto;
 }
@@ -82,4 +79,34 @@ main h1 {
 
 .player-details p {
         margin-top: 10px;
+}
+
+/* ----------------------------------------------------------------
+-----------------------Footer Sections Style----------------------
+---------------------------------------------------------------- */
+
+footer {
+        margin: 158px 0 63px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+}
+
+footer img {
+        height: 110px;
+        width: 483.87px;
+}
+
+.icon i {
+        cursor: pointer;
+        height: 32px;
+        width: 32px;
+}
+
+footer p {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 400;
 }
