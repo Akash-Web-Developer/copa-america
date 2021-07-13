@@ -1,0 +1,43 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+        width: 100%;
+        font-family: 'Poppins', 
+        sans-serif;
+}
+
+.main-section{
+        display: flex;
+        justify-content: space-evenly;
+        background: rgb(45, 37, 160);
+        height: 600px;
+        align-items: center;
+        line-height: 80px;
+}
+
+main h1{
+        font-size: 64px;
+        font-weight: 700;
+        color: #FFFFFF;
+
+}
+
+.btn{
+        height: 44px;
+        width: 168px;
+        font-size: 16px;
+        font-weight: 500;
+        background: rgb(224, 44, 109);
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+}
+
+.banner-img img{
+        Width: 556.01px;
+        Height :456px;
+}
