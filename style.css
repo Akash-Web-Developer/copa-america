@@ -194,6 +194,10 @@ footer img {
         cursor: pointer;
         height: 32px;
         width: 32px;
+        background-color: lightgray;
+        text-align: center;
+        padding-top: 8px;
+        border-radius: 50%;
 }
 
 footer p {
