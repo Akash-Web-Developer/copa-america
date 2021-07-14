@@ -95,12 +95,12 @@ main h1 {
 -----------------------Table Sections Style----------------------
 ---------------------------------------------------------------- */
 
-.table-title {
+.section-title {
         text-align: center;
         margin-top: 70px;
         padding-top: 50px;
         font-size: 50px;
-        color: white;
+        color: orangered;
 }
 
 .table-section {
@@ -146,6 +146,21 @@ tr:nth-child(even) {
 
 .white {
         color: white;
+}
+
+/* ----------------------------------------------------------------
+-----------------------Highlights Sections Style----------------------
+---------------------------------------------------------------- */
+
+.highLights {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.highLights h1, .highlight-p {
+        text-align: center;
 }
 
 /* ----------------------------------------------------------------
