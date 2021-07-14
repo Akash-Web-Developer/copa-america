@@ -205,8 +205,10 @@ footer p {
 --------------------Media Query Style For Mobile-------------------
 ------------------------------------------------------------------- */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (min-width: 300px) and (max-width: 688px) {
         .main-section {
+                margin-left: 0;
+                margin-right: 0;
                 display: block;
                 height: 1000px;
                 padding: 5%;
@@ -215,21 +217,31 @@ footer p {
                 width: 90%;
         }
         .players-section {
+                margin-left: 0;
+                margin-right: 0;
                 margin-left: 2%;
                 grid-template-columns: repeat(1, 1fr);
                 column-gap: 25px;
         }
         .match-details {
+                margin-left: 0;
+                margin-right: 0;
                 height: 1800px;
         }
         .table-section .match-time-table {
+                margin-left: 0;
+                margin-right: 0;
                 flex-direction: column;
                 flex-wrap: wrap;
         }
         .score-table {
+                margin-left: 0;
+                margin-right: 0;
                 margin-top: 80px;
         }
         .score-part {
+                margin-left: 0;
+                margin-right: 0;
                 display: flex;
                 justify-content: center;
         }
@@ -248,9 +260,13 @@ footer p {
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
         body {
+                margin-left: 0;
+                margin-right: 0;
                 width: 100%;
         }
         .main-section {
+                margin-left: 0;
+                margin-right: 0;
                 display: block;
                 padding: 5%;
                 flex-direction: column;
@@ -263,6 +279,8 @@ footer p {
                 width: 100%;
         }
         .players-section {
+                margin-left: 0;
+                margin-right: 0;
                 display: grid;
                 grid-template-columns: repeat(2, 0.7fr);
         }
@@ -270,13 +288,19 @@ footer p {
                 height: 1300px;
         }
         .table-section .match-time-table {
+                margin-left: 0;
+                margin-right: 0;
                 flex-direction: column;
                 flex-wrap: wrap;
         }
         .score-table {
+                margin-left: 0;
+                margin-right: 0;
                 margin-top: 80px;
         }
         .score-part {
+                margin-left: 0;
+                margin-right: 0;
                 display: flex;
                 justify-content: center;
         }
